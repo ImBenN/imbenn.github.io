@@ -1,81 +1,125 @@
-/* Font styles */
-@import url('https://fonts.googleapis.com/css2?family=SF+Pro+Text:wght@400;500;600;700&display=swap');
-
-/* Header styles */
-.header {
-  background-color: #333;
-  padding: 20px 0;
+body {
+  background-color: #ffffff;
+  color: #333333;
+  font-family: "SF Pro Display", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
 }
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+.header {
+  background-color: #007aff;
+  padding: 20px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
-
 .site-title {
-  color: lightblue;
+  color: #007aff;
   font-size: 24px;
-  font-weight: 600;
-  margin: 0;
-  font-family: 'SF Pro Text', sans-serif;
+  font-weight: bold;
+  margin-right: 20px;
 }
-
 .navbar {
-  margin-left: auto;
+  flex-grow: 1;
 }
-
 .navbar-nav {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: flex-end;
 }
-
 .navbar-nav li {
-  display: inline-block;
   margin-left: 20px;
 }
-
 .navbar-nav li a {
-  color: lightblue;
+  color: #007aff;
   text-decoration: none;
   padding: 10px;
-  font-family: 'SF Pro Text', sans-serif;
 }
-
-/* Remaining styles */
-.intro,
-.slogan,
-.benefits,
-.contact-section {
-  padding: 40px 0;
+.navbar-nav li:first-child {
+  margin-left: 0;
 }
-
+.intro {
+  padding: 40px;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
-
-.intro p,
-.slogan-text,
-.benefits p,
-.contact-info p {
-  font-family: 'SF Pro Text', sans-serif;
+h2 {
+  font-size: 32px;
+  color: #333333;
+  margin-bottom: 20px;
 }
-
-.footer {
-  background-color: #333;
-  color: white;
-  padding: 20px 0;
+.image-section {
+  background-color: #ffffff;
+  padding: 40px;
   text-align: center;
 }
+.image-section img {
+  max-width: 100%;
+  height: auto;
+}
+.slogan {
+  background-color: #000000;
+  padding: 40px;
+  text-align: center;
+}
+.slogan-text {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+}
 
-.footer p {
+.benefits {
+  margin-top: 40px;
+}
+
+.benefits h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.benefits-list {
+  list-style: none;
+  padding: 0;
   margin: 0;
+}
+
+.benefits-list li {
+  margin-bottom: 20px;
+}
+
+.benefits-list li strong {
+  display: block;
+  font-weight: bold;
+}
+
+.benefits-list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contact-section {
+  background-color: #ffffff;
+  padding: 60px;
+}
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-column {
+  flex-basis: 50%;
+}
+.contact-column h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.map {
+  width: 100%;
+  height: 300px;
 }
 
 
