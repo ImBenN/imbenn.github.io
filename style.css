@@ -1,14 +1,9 @@
 body {
-  background-color: #161616;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
-}
-
-a {
-  color: #fff;
-  text-decoration: none;
 }
 
 .container {
@@ -18,36 +13,32 @@ a {
 }
 
 .header {
-  background-color: #000;
+  background-color: #333;
   padding: 20px 0;
 }
 
-.header-logo {
+.site-title {
   display: inline-block;
-  vertical-align: middle;
-  margin-right: 20px;
+  margin-right: auto;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.header-logo img {
-  width: 100px;
-  height: auto;
-}
-
-.header-menu {
+.nav-menu {
   display: inline-block;
-  vertical-align: middle;
 }
 
-.header-menu ul {
+.nav-menu ul {
   list-style-type: none;
 }
 
-.header-menu ul li {
+.nav-menu ul li {
   display: inline;
   margin-right: 10px;
 }
 
-.header-menu ul li a {
+.nav-menu ul li a {
   color: #fff;
   text-decoration: none;
   padding: 10px;
@@ -58,7 +49,7 @@ a {
 }
 
 .footer {
-  background-color: #000;
+  background-color: #333;
   padding: 20px 0;
   text-align: center;
 }
