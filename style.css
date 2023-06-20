@@ -140,6 +140,60 @@ h2 {
   height: 300px;
 }
 
+/* Default styles for desktop */
+
+/* Header */
+.header {
+  /* Desktop styles */
+}
+
+/* Main content */
+.main-content {
+  /* Desktop styles */
+}
+
+/* Contact section */
+.contact {
+  /* Desktop styles */
+}
+
+/* Media queries for tablet and mobile */
+
+/* Tablet styles */
+@media only screen and (max-width: 768px) {
+  /* Header */
+  .header {
+    /* Tablet styles */
+  }
+
+  /* Main content */
+  .main-content {
+    /* Tablet styles */
+  }
+
+  /* Contact section */
+  .contact {
+    /* Tablet styles */
+  }
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 480px) {
+  /* Header */
+  .header {
+    /* Mobile styles */
+  }
+
+  /* Main content */
+  .main-content {
+    /* Mobile styles */
+  }
+
+  /* Contact section */
+  .contact {
+    /* Mobile styles */
+  }
+}
 
 
 
