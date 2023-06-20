@@ -7,28 +7,43 @@ body {
 }
 
 .header {
-  background-color: #ffffff;
+  background-color: #007aff;
   padding: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .site-title {
-  color: #00a0df;
+  color: #007aff;
   font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
 }
 
 .navbar {
-  margin-top: 10px;
+  flex-grow: 1;
+}
+
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navbar-nav li {
-  display: inline-block;
   margin-left: 20px;
 }
 
 .navbar-nav li a {
-  color: #00a0df;
+  color: #007aff;
   text-decoration: none;
   padding: 10px;
+}
+
+.navbar-nav li:first-child {
+  margin-left: 0;
 }
 
 .intro {
