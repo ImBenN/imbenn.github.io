@@ -6,45 +6,49 @@ body {
   line-height: 1.6;
 }
 
+/* Header styles */
 .header {
-  background-color: #007aff;
-  padding: 20px;
+  background-color: #333;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
 .site-title {
-  color: #007aff;
+  color: lightblue;
   font-size: 24px;
   font-weight: bold;
-  margin-right: 20px;
+  margin: 0;
 }
 
 .navbar {
-  flex-grow: 1;
+  margin-left: auto;
 }
 
 .navbar-nav {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: flex-end;
 }
 
 .navbar-nav li {
+  display: inline-block;
   margin-left: 20px;
 }
 
 .navbar-nav li a {
-  color: #007aff;
+  color: lightblue;
   text-decoration: none;
   padding: 10px;
 }
 
-.navbar-nav li:first-child {
-  margin-left: 0;
-}
 
 .intro {
   padding: 40px;
