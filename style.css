@@ -1,11 +1,7 @@
-body {
-  background-color: #ffffff;
-  color: #333333;
-  font-family: "SF Pro Display", Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-}
+/* Font styles */
+@import url('https://fonts.googleapis.com/css2?family=SF+Pro+Text:wght@400;500;600;700&display=swap');
 
+/* Header styles */
 .header {
   background-color: #333;
   padding: 20px 0;
@@ -23,8 +19,9 @@ body {
 .site-title {
   color: lightblue;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 600;
   margin: 0;
+  font-family: 'SF Pro Text', sans-serif;
 }
 
 .navbar {
@@ -46,11 +43,15 @@ body {
   color: lightblue;
   text-decoration: none;
   padding: 10px;
+  font-family: 'SF Pro Text', sans-serif;
 }
 
-
-.intro {
-  padding: 40px;
+/* Remaining styles */
+.intro,
+.slogan,
+.benefits,
+.contact-section {
+  padding: 40px 0;
 }
 
 .container {
@@ -59,88 +60,25 @@ body {
   padding: 0 20px;
 }
 
-h2 {
-  font-size: 32px;
-  color: #333333;
-  margin-bottom: 20px;
-}
-
-.slogan {
-  background-color: #000000;
-  padding: 40px;
-  text-align: center;
-}
-
-.slogan-text {
-  color: #ffffff;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.benefits {
-  margin-top: 40px;
-}
-
-.benefits h2 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.benefits-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.benefits-list li {
-  margin-bottom: 20px;
-}
-
-.benefits-list li strong {
-  display: block;
-  font-weight: bold;
-}
-
-.benefits-list li:not(:last-child) {
-  margin-bottom: 10px;
-}
-
-.contact-section {
-  background-color: #ffffff;
-  padding: 60px;
-}
-
-.contact-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.contact-column {
-  flex-basis: 50%;
-}
-
-.contact-column h3 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.map {
-  width: 100%;
-  height: 300px;
+.intro p,
+.slogan-text,
+.benefits p,
+.contact-info p {
+  font-family: 'SF Pro Text', sans-serif;
 }
 
 .footer {
   background-color: #333;
-  padding: 60px 0;
+  color: white;
+  padding: 20px 0;
   text-align: center;
 }
 
 .footer p {
-  margin-bottom: 0;
+  margin: 0;
 }
+
+
 
 
 
