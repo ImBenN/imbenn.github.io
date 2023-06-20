@@ -67,7 +67,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  text-align: center;
 }
 
 h2 {
@@ -76,8 +75,15 @@ h2 {
   margin-bottom: 40px;
 }
 
-.address {
-  margin-bottom: 40px;
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-text {
+  flex-basis: 50%;
 }
 
 .address-line {
@@ -87,19 +93,15 @@ h2 {
 }
 
 .map {
-  position: relative;
-  overflow: hidden;
-  padding-top: 56.25%;
+  flex-basis: 50%;
 }
 
 .map iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   border: 0;
 }
+
 
 .footer {
   background-color: #333;
