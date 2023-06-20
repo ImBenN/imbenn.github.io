@@ -8,15 +8,18 @@ body {
 .header {
   background-color: #ffffff;
   padding: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .site-title {
   color: #00a0df;
   font-size: 24px;
+  margin-right: auto; /* Pushes the navbar to the right */
 }
 
 .navbar {
-  margin-top: 10px;
+  margin-left: 20px;
 }
 
 .navbar-nav li {
