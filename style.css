@@ -13,26 +13,34 @@ body {
 header {
   background-color: forestgreen;
   padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-title h1 {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 20px;
 }
 
 nav ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
 }
 
 nav ul li {
-  display: inline;
-}
-
-nav ul li.right {
-  margin-left: auto;
+  margin-right: 10px;
 }
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
   padding: 10px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
 }
 
 .hero {
