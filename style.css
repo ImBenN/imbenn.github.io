@@ -13,7 +13,6 @@ body {
 header {
   background-color: forestgreen;
   padding: 20px;
-  text-align: center;
 }
 
 nav ul {
@@ -26,14 +25,14 @@ nav ul li {
   display: inline;
 }
 
+nav ul li.right {
+  margin-left: auto;
+}
+
 nav ul li a {
   color: #fff;
   text-decoration: none;
   padding: 10px;
-}
-
-nav ul li.right {
-  margin-left: auto;
 }
 
 .hero {
